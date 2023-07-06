@@ -5,7 +5,7 @@ on:
       -main
   workflow_dispatch:
 env:
-  SNOWSQL_ACCOUNT: ${{sercets.acc}}
+  SNOWSQL_ACCOUNT: ${{secrets.acc}}
   SNOWSQL_PWD: ${{secrets.pwd}}
   SNOWSQL_DATABASE: ${{secrets.database}}
   SNOWSQL_WH: ${{secrets.wh}}
