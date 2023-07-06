@@ -18,7 +18,7 @@ jobs:
     name: Pipeline Activities
     steps:
       - name: checkout
-        uses: actions/checlout@v3
+        uses: actions/checkout@v3
       - name: Downlaod and Install Snowsql
         run: |
               curl -O https://sfc-repo.snowflakecomputing.com/snowsql/bootstrap/1.2/linux_x86_64/snowsql-1.2.27-linux_x86_64.bash
