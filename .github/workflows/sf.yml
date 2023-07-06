@@ -2,7 +2,7 @@ name: Snowsql
 on:
   push:
     branches:
-      -main
+      - main
   workflow_dispatch:
 env:
   SNOWSQL_ACCOUNT: ${{secrets.acc}}
